@@ -1,0 +1,57 @@
+body{
+margin: 0;
+padding: 0;
+}
+.main{
+height: 100vh;
+width: 100vw;
+/* background-color: aqua; */
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.one{
+display: flex;
+justify-content: space-around;
+margin-top: 40px;
+
+
+}
+.sign{
+justify-content: space-between;
+display: flex;
+padding-left: 90px;
+margin-top: 40px;
+}
+.two{
+justify-content: space-around;
+display: flex;
+margin-top: 80px;
+
+}
+.three{
+display: flex;
+justify-content: space-evenly;
+margin-top: 60px;
+}
+.eng{
+display: none;
+
+}
+@media screen and (max-width:866px) {
+.eng{
+    display: block;
+}
+.right{
+    display: none;
+}
+.one{
+    flex-direction: column;
+}
+    .three{flex-direction: column-reverse;}
+}
